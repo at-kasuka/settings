@@ -1,0 +1,12 @@
+# ignore
+/*
+/.*
+
+# not ignore
+!/.gitconfig
+!/.gitignore
+!/.vimrc
+!/.vim
+
+#ignore
+.netrwhist
