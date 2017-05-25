@@ -25,6 +25,10 @@ set shiftwidth=4
 set laststatus=2
 " タブライン表示
 set showtabline=2
+" 自動補完候補表示高さ
+set pumheight=8
+" コマンド補完強化
+set wildmenu wildmode=list:longest,full
 
 "---------- 動作関連 ----------
 " バックアップ/スワップを作らない
@@ -34,6 +38,13 @@ set nobackup
 set backspace=indent,eol,start
 " インデント自動
 set smartindent
+" タグファイル設定
+set tags+=.tags;
+" 画面分割時のデフォルト変更
+set splitbelow
+set splitright
+" 未保存のファイルがあっても新しいのを開けるように
+set hidden
 
 "---------- 検索関連 ----------
 " 検索文字列が全て小文字の場合は大文字小文字の区別なし
