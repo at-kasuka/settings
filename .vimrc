@@ -60,7 +60,7 @@ set hlsearch
 
 "---------- キーバインド変更 ----------
 " C-cをEsc同等にする
-nnoremap  
+noremap  
 " 行末までヤンク
 nnoremap Y y$
 " ヤンクレジスタ貼り付け
@@ -72,8 +72,12 @@ nnoremap + 
 nnoremap - 
 " 検索ハイライト消去
 nnoremap  :noh
+" Ctrl-Nで横にカレントディレクトリを開く
+nnoremap  :vsplit .
 " 上下移動加速用
-nnoremap J 5j
-nnoremap K 5k
-
-
+noremap J 5j
+noremap K 5k
+" 行頭移動
+noremap  ^
+" 行末移動
+noremap  $
