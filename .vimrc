@@ -45,6 +45,8 @@ set splitbelow
 set splitright
 " 未保存のファイルがあっても新しいのを開けるように
 set hidden
+" SJISとかも開けるように
+set fileencodings=utf-8,cp932,sjis,euc-jp,latin1
 
 "---------- 検索関連 ----------
 " 検索文字列が全て小文字の場合は大文字小文字の区別なし
